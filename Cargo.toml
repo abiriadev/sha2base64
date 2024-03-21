@@ -1,0 +1,10 @@
+[package]
+name = "sha2base64"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64ct = { version = "1.6.0", features = ["alloc"] }
+sha2 = "0.10.8"
